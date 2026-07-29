@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <!-- =========================================
+         معلومات الصفحة
+    ========================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>دعوة زفاف</title>
+
+    <!-- ملف التنسيق -->
+
+    <link
+        rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+<!-- =========================================
+     شاشة البداية
+========================================== -->
+
+<div id="welcome-screen">
+
+    <!-- الضوء الخلفي -->
+
+    <div class="background-light"></div>
+
+    <!-- الظرف -->
+
+    <div id="envelope-wrapper">
+
+        <!-- البطاقة الموجودة داخل الظرف -->
+
+        <div id="cover-container">
+
+            <img
+                src="images/cover.png"
+                id="coverImage"
+                alt="Invitation Cover">
+
+        </div>
+
+        <!-- الظرف -->
+
+        <div id="envelope">
+
+            <!-- الجزء السفلي -->
+
+            <img
+
+                src="images/envelope-bottom.png"
+
+                id="envelopeBottom"
+
+                alt="Envelope Bottom">
+
+            <!-- الغطاء -->
+
+            <img
+
+                src="images/envelope-top.png"
+
+                id="envelopeTop"
+
+                alt="Envelope Top">
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- =========================================
+     الدعوة
+========================================== -->
+
+<main id="invitation">
+
+    <!-- =====================================
+         Cover
+    ====================================== -->
+
+    <section class="card cover-card">
+
+        <img
+
+            src="images/cover.png"
+
+            class="invitation-image"
+
+            alt="Cover"
+
+            loading="eager">
+
+    </section>
+
+    <!-- =====================================
+         Card 1
+    ====================================== -->
+
+    <section class="card">
+
+        <img
+
+            src="images/card1.png"
+
+            class="invitation-image"
+
+            alt="Card 1"
+
+            loading="lazy">
+
+    </section>
+
+    <!-- =====================================
+         Card 2
+    ====================================== -->
+
+    <section class="card countdown-card">
+
+        <!-- العداد -->
+
+<!-- =====================================
+     العداد التنازلي
+====================================== -->
+
+<div id="countdown">
+
+    <div class="time-box">
+
+        <span id="days">00</span>
+
+        <small>يوم</small>
+
+    </div>
+
+
+    <div class="time-box">
+
+        <span id="hours">00</span>
+
+        <small>ساعة</small>
+
+    </div>
+
+
+    <div class="time-box">
+
+        <span id="minutes">00</span>
+
+        <small>دقيقة</small>
+
+    </div>
+
+
+    <div class="time-box">
+
+        <span id="seconds">00</span>
+
+        <small>ثانية</small>
+
+    </div>
+
+</div>
+        <img
+
+            src="images/card2.png"
+
+            class="invitation-image"
+
+            alt="Card 2"
+
+            loading="lazy">
+
+    </section>
+        <!-- =====================================
+         Card 3
+    ====================================== -->
+
+    <section class="card location-card">
+
+        <!-- أيقونة الموقع -->
+
+        <a
+
+            id="locationLink"
+
+            href="#"
+
+            target="_blank"
+
+            aria-label="موقع الحفل">
+
+            <img
+
+                src="images/location.png"
+
+                id="locationIcon"
+
+                alt="Location">
+
+        </a>
+
+        <img
+
+            src="images/card3.png"
+
+            class="invitation-image"
+
+            alt="Card 3"
+
+            loading="lazy">
+
+    </section>
+
+</main>
+
+<!-- =========================================
+     طبقة انتقال سوداء خفيفة
+     تساعد على نعومة الانتقال
+========================================== -->
+
+<div id="transitionOverlay"></div>
+
+<!-- =========================================
+     ملف JavaScript
+========================================== -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
