@@ -404,7 +404,6 @@ visibility:hidden;
 
 #invitation{
 
-
     width:100%;
 
 
@@ -424,6 +423,7 @@ visibility:hidden;
 
 
     opacity .7s ease;
+gap:0;
 
 
 }
@@ -449,28 +449,10 @@ visibility:hidden;
 
 
 .card{
-
-
-    position:relative;
-
-
-    width:100%;
-
-
-    overflow:hidden;
-
-
-    line-height:0;
-
-
     margin:0;
-
-
     padding:0;
-
-
+    line-height:0;
 }
-
 
 
 /*
@@ -494,14 +476,13 @@ visibility:hidden;
 
 
 .invitation-image{
-    display: block;
-    width: 100%;
-    height: auto;
-
-    /* قص بسيط جدًا من الأسفل */
-    clip-path: inset(0 0 2px 0);
+    display:block;
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+    vertical-align:top;
 }
-
 
 /* فقط الكوفر له ظل */
 
