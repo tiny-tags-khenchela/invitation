@@ -828,7 +828,9 @@ gap:0;
 
     }
 
-
+.countdown-card{
+    position:relative;
+}
 
     #countdown{
 
