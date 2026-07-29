@@ -609,18 +609,15 @@ document
 
 window.addEventListener(
 
-    "load",
+    "DOMContentLoaded",
 
     ()=>{
 
-
         document.body.style.overflow = "hidden";
-
 
     }
 
 );
-
 
 
 
