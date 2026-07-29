@@ -707,12 +707,11 @@ visibility:hidden;
 
 #locationIcon{
 
-    width:180px;
+    width: 120px; 
 
-    height:180px;
+    height: auto;
 
 }
-
 
 /*=========================================
 =          ظهور البطاقات
