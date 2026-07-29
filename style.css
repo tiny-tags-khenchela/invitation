@@ -494,25 +494,13 @@ visibility:hidden;
 
 
 .invitation-image{
+    display: block;
+    width: 100%;
+    height: auto;
 
-
-    width:100%;
-
-
-    height:auto;
-
-
-    display:block;
-
-
-    object-fit:contain;
-
-
-    box-shadow:none;
-
-
+    /* قص بسيط جدًا من الأسفل */
+    clip-path: inset(0 0 2px 0);
 }
-
 
 
 /* فقط الكوفر له ظل */
